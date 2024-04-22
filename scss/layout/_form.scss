@@ -1,0 +1,17 @@
+.formcontact{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+button[type="submit"]{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
