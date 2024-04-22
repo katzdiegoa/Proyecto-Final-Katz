@@ -24,6 +24,9 @@ a:hover {
     justify-content: center;
     display: block;
 }
+body{
+    flex-wrap: wrap;
+}
 h2{
     font-size: 34px; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
@@ -37,4 +40,10 @@ h3{
     font-family: Verdana, Georgia, 'Times New Roman', Times, serif, Tahoma, sans-serif;
     color: whitesmoke;
 }
+.img-crs {width: 50rem;
+    height: 40 rem;
+    margin:0% auto;
+    justify-content: center;
+    display: block;
+    }
 
