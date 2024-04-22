@@ -2,14 +2,6 @@
     .navmenu {
         display: none;
     }
-    p{
-        text-align: justify;
-    }
-    #carouselExample{
-        display: none;
-    }
-    #carouselExample {display: none;
-    }
     .navmenu{
         position: fixed;
         top: 80px;
@@ -29,6 +21,16 @@
     }
     #menu{
         display: none;
+    }
+    p{
+        text-align: justify;
+    }
+    #carouselExample{
+        display: none;
+    }
+    h2 {
+        bottom: 150px;
+        position: absolute;
     }
 }
 

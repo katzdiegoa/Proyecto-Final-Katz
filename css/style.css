@@ -17,6 +17,28 @@ a:hover {
   color: rgb(19, 15, 15);
 }
 
+.img-txt {
+  width: 30rem;
+  height: auto;
+  padding: 0.5 rem;
+  margin: 0% auto;
+  justify-content: center;
+  display: block;
+}
+
+h2 {
+  font-size: 34px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: whitesmoke;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: Verdana, Georgia, "Times New Roman", Times, serif, Tahoma, sans-serif;
+  color: whitesmoke;
+}
+
 .nav {
   background: #293241;
   height: 80px;
@@ -52,15 +74,6 @@ a:hover {
   .navmenu {
     display: none;
   }
-  p {
-    text-align: justify;
-  }
-  #carouselExample {
-    display: none;
-  }
-  #carouselExample {
-    display: none;
-  }
   .navmenu {
     position: fixed;
     top: 80px;
@@ -80,6 +93,16 @@ a:hover {
   }
   #menu {
     display: none;
+  }
+  p {
+    text-align: justify;
+  }
+  #carouselExample {
+    display: none;
+  }
+  h2 {
+    bottom: 150px;
+    position: absolute;
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 960px) {
@@ -110,6 +133,9 @@ a:hover {
   #menu {
     display: none;
   }
+  h2 {
+    padding-bottom: 20px;
+  }
 }
 @media only screen and (min-width: 961px) {
   .navlabel {
@@ -130,28 +156,6 @@ a:hover {
     display: block;
   }
 }
-.img-txt {
-  width: 30rem;
-  height: auto;
-  padding: 0.5 rem;
-  margin: 0% auto;
-  justify-content: center;
-  display: block;
-}
-
-h2 {
-  font-size: 34px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: rgb(15, 15, 15);
-  text-align: center;
-}
-
-h3 {
-  font-size: 30px;
-  font-family: Verdana, Georgia, "Times New Roman", Times, serif, Tahoma, sans-serif;
-  color: #0b0101;
-}
-
 footer ul {
   display: flex;
   flex-direction: row;
