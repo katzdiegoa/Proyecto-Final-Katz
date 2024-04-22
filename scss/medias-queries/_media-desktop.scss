@@ -1,0 +1,39 @@
+@media only screen and (min-width: 961px){
+.navlabel{
+    display: none;
+}
+#menu{
+    display: none;
+}
+.carousel-item {
+    padding: 100px;
+    justify-content: center;
+}
+.img-crs {
+    width: 40rem;
+    height: 40rem;
+    margin:0% auto;
+    justify-content: center;
+    display: block;}
+}
+.img-txt {
+    width: 30rem;
+    height: auto;
+    padding: 0.5 rem;
+    margin: 0% auto;
+    justify-content: center;
+    display: block;
+}
+h2{
+    font-size: 34px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: rgb(15, 15, 15);
+    text-align: center;
+}
+    
+h3{
+    font-size: 30px;
+    font-family: Verdana, Georgia, 'Times New Roman', Times, serif, Tahoma, sans-serif;
+    color: #0b0101;
+}
+    

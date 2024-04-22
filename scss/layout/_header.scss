@@ -1,0 +1,30 @@
+.nav{
+    background: #293241;
+    height: 80px;
+    color: white;
+}
+
+.nav-container{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlogo{
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.navmenu {
+    display: grid;
+    grid-auto-flow:column;
+    gap: 3em;
+}
+
+.navitem{
+    color: white;
+    text-decoration: none;
+}

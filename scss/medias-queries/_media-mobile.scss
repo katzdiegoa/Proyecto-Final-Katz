@@ -1,0 +1,35 @@
+@media only screen and (max-width: 500px){
+    .navmenu {
+        display: none;
+    }
+    p{
+        text-align: justify;
+    }
+    #carouselExample{
+        display: none;
+    }
+    #carouselExample {display: none;
+    }
+    .navmenu{
+        position: fixed;
+        top: 80px;
+        bottom:0;
+        background: #A3DCD5;
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        clip-path: circle(0 at center);
+        transition: clip-path 1s ease-in-out;
+    }
+    .navinput:checked + .navmenu{
+        clip-path: circle(100% at center);
+    }
+    #menu{
+        display: none;
+    }
+}
+
+            
