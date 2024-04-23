@@ -117,6 +117,9 @@ h3 {
     bottom: 150px;
     position: absolute;
   }
+  .reseñat {
+    display: none;
+  }
   .container .card {
     display: none;
   }
@@ -153,6 +156,9 @@ h3 {
     padding-bottom: 20px;
   }
   .reseñas {
+    display: none;
+  }
+  .reseñast {
     display: none;
   }
   .container .card {
