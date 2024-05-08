@@ -20,6 +20,7 @@
         align-items: center;
         clip-path: circle(0 at center);
         transition: clip-path 1s ease-in-out;
+        z-index: 999;
     }
     .navinput:checked + .navmenu{
         clip-path: circle(100% at center);
@@ -28,12 +29,21 @@
         display: none;
     }
     h2{
-        padding-bottom: 20px;
+        margin-top: 10px;
     }
     .reseñas{
         display: none;
     }
     .container .card {
         display: none;
+    }
+    body {
+        margin-top: 10px;
+    }
+    .formcontact{
+        margin-top: 10px;
+    }
+    .form-group{
+        margin-top: 20px;
     }
 }

@@ -52,6 +52,10 @@ h3 {
   display: block;
 }
 
+.bform {
+  text-align: center;
+}
+
 .nav {
   background: #293241;
   height: 80px;
@@ -100,6 +104,7 @@ h3 {
     align-items: center;
     clip-path: circle(0 at center);
     transition: clip-path 1s ease-in-out;
+    z-index: 999;
   }
   .navinput:checked + .navmenu {
     clip-path: circle(100% at center);
@@ -123,6 +128,15 @@ h3 {
   .container .card {
     display: none;
   }
+  body {
+    margin-top: 10px;
+  }
+  .formcontact {
+    margin-top: 10px;
+  }
+  .form-group {
+    margin-top: 20px;
+  }
 }
 @media only screen and (min-width: 501px) and (max-width: 960px) {
   .navlabel {
@@ -145,6 +159,7 @@ h3 {
     align-items: center;
     clip-path: circle(0 at center);
     transition: clip-path 1s ease-in-out;
+    z-index: 999;
   }
   .navinput:checked + .navmenu {
     clip-path: circle(100% at center);
@@ -153,13 +168,22 @@ h3 {
     display: none;
   }
   h2 {
-    padding-bottom: 20px;
+    margin-top: 10px;
   }
   .reseñas {
     display: none;
   }
   .container .card {
     display: none;
+  }
+  body {
+    margin-top: 10px;
+  }
+  .formcontact {
+    margin-top: 10px;
+  }
+  .form-group {
+    margin-top: 20px;
   }
 }
 @media only screen and (min-width: 961px) {

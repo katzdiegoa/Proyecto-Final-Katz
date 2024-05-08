@@ -15,6 +15,7 @@
         align-items: center;
         clip-path: circle(0 at center);
         transition: clip-path 1s ease-in-out;
+        z-index: 999;
     }
     .navinput:checked + .navmenu{
         clip-path: circle(100% at center);
@@ -28,16 +29,25 @@
     #carouselExample{
         display: none;
     }
-    h2 {
+    h2{
         bottom: 150px;
         position: absolute;
     }
-    .reseñat {
+    .reseñat{
         display: none;
     }
-    .container .card {
+    .container .card{
         display: none;
     }    
+    body {
+        margin-top: 10px;
+    }
+    .formcontact{
+        margin-top: 10px;
+    }
+    .form-group{
+        margin-top: 20px;
+    }
 }
 
             
