@@ -292,6 +292,12 @@ ol {
   padding: 10px;
 }
 
+.numberc {
+  border: 1px solid #0b0101;
+  padding: 10px;
+  text-align: center;
+}
+
 p {
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -349,6 +355,37 @@ p {
 
 .card:hover {
   transform: translateY(-10px);
+}
+
+.toma-nota {
+  padding: 20px;
+}
+
+.toma-nota h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.citas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cita {
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.autor {
+  text-align: right;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=style.css.map */
