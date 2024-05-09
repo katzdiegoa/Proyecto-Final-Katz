@@ -18,6 +18,14 @@ a:hover {
   color: rgb(19, 15, 15);
 }
 
+p {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
 .img-txt {
   width: 30rem;
   height: auto;
@@ -54,6 +62,20 @@ h3 {
 
 .bform {
   text-align: center;
+}
+
+.carousel-txt {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-txt h5 {
+  font-size: 30px;
+  margin-bottom: 0;
 }
 
 .nav {
@@ -114,6 +136,7 @@ h3 {
   }
   p {
     text-align: justify;
+    font-size: 14px;
   }
   #carouselExample {
     display: none;
@@ -122,7 +145,7 @@ h3 {
     bottom: 150px;
     position: absolute;
   }
-  .reseñat {
+  .efemerides {
     display: none;
   }
   .container .card {
@@ -136,6 +159,9 @@ h3 {
   }
   .form-group {
     margin-top: 20px;
+  }
+  .hidden {
+    display: none;
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 960px) {
@@ -184,6 +210,13 @@ h3 {
   }
   .form-group {
     margin-top: 20px;
+  }
+  p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  .hidden {
+    display: none;
   }
 }
 @media only screen and (min-width: 961px) {
@@ -255,6 +288,8 @@ ol {
   background-color: lightgray;
   font-weight: bold;
   text-align: center;
+  border: 1px solid;
+  padding: 10px;
 }
 
 p {

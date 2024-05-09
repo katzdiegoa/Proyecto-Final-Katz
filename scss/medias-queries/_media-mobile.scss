@@ -25,6 +25,7 @@
     }
     p{
         text-align: justify;
+        font-size: 14px;
     }
     #carouselExample{
         display: none;
@@ -33,7 +34,7 @@
         bottom: 150px;
         position: absolute;
     }
-    .reseñat{
+    .efemerides{
         display: none;
     }
     .container .card{
@@ -47,6 +48,9 @@
     }
     .form-group{
         margin-top: 20px;
+    }
+    .hidden{
+        display: none;
     }
 }
 
