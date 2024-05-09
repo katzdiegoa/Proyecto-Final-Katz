@@ -74,6 +74,10 @@ h3 {
   margin-bottom: 0;
 }
 
+h1, h2, h3, h4 {
+  margin-bottom: 20px;
+}
+
 .nav {
   background: #293241;
   height: 80px;
